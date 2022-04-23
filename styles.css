@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: #222831;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--light-blue);
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pal-box {
+    width: 70%;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: var(--white);
+    text-align: center;
+}
+.pal-box .input-box {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.pal-box .input-box .check-btn,
+.pal-box .input-box .input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--dark-grey);
+    padding: 12px 18px;
+    border-radius: 8px 0 0 8px;
+    color: var(--white);
+    font-size: 1.5rem;
+}
+.pal-box .input-box .check-btn {
+    width: auto;
+    background-color: var(--color-sec);
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+.pal-box .show-text h1{
+  letter-spacing: 2px;
+}
